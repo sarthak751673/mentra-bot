@@ -24,8 +24,8 @@ from telegram.ext import (
 # ─────────────────────────────────────────
 # 🔑  PASTE YOUR KEYS HERE
 # ─────────────────────────────────────────
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-OPENAI_API_KEY  = "YOUR_OPENAI_API_KEY"
+TELEGRAM_TOKEN = "8632846336:AAH806afDgECQTf7JanPs-k_SLRUAwyiU4o"
+OPENAI_API_KEY  = "sk-proj-tqYwOSYUcuJD8YtOtfdK0vxb16dlO2qU9I0vKRZLYcZfEbBL1cJfxmRY3PResSbmYgiKtqzMXUT3BlbkFJKp0xSgZiz4U_jVWD1SSJ5MQGDEfEyUwfkn6ClvvVOEpLhHv0SYvX9W2PamP0rAvl3a_dV6Rm4AY"
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 

@@ -24,8 +24,8 @@ from telegram.ext import (
 # ─────────────────────────────────────────
 # 🔑  PASTE YOUR KEYS HERE
 # ─────────────────────────────────────────
-TELEGRAM_TOKEN = "os.getenv("TELEGRAM_TOKEN")"
-OPENAI_API_KEY  = "os.getenv("OPENAI_API_KEY")"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENAI_API_KEY  = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
